@@ -1,0 +1,238 @@
+/* responsive section start*/
+
+@media (max-width: 769px) {
+  /* for nav bar start */
+
+  nav {
+    padding: 15px 20px;
+  }
+
+  nav img {
+    width: 125px;
+  }
+
+  #responsive-menu {
+    display: initial;
+  }
+
+  #close-menu {
+    display: initial;
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 30px 0 20px 20px;
+  }
+
+  nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(18, 20, 105, 0.5);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(25, 255, 255, 0.18);
+    width: 230px;
+    height: 100vh;
+    transition: 0.3s ease;
+  }
+
+  nav .navigation ul.active {
+    right: 0;
+  }
+
+  nav .navigation ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+
+  nav .navigation ul li a {
+    color: #fff;
+  }
+
+  /* end  */
+
+  /* for hero section start  */
+
+  #hero p,
+  #hero h2 {
+    width: 90%;
+  }
+
+  #hero {
+    padding-top: 0;
+  }
+
+  /* end  */
+
+  /* for feature section */
+
+  #feature {
+    padding: 8vw 4vw 0 4vw;
+  }
+
+  /* end  */
+
+  /* for course section  */
+
+  #courses {
+    padding: 8vw 4vw 0 4vw;
+  }
+
+  /* end  */
+
+  /* for registration section  */
+
+  #registration {
+    padding: 6vw 4vw 6vw 4vw;
+    margin-top: 8vw;
+  }
+
+  #registration .time-remind .time {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  /* end  */
+
+  /* for footer  */
+
+  .footer-columns {
+    padding: 30px 0;
+  }
+
+  /* end  */
+}
+
+@media (max-width: 475px) {
+  /* for nav bar  */
+  nav .respons {
+    width: 20px !important ;
+  }
+
+  nav .navigation ul li {
+    padding: 15px 0 15px 40px;
+  }
+
+  /* end  */
+
+  /* for regitration  */
+  #registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #registration .time-remind .time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  /* end  */
+
+  /* for expert section  */
+
+  #expert-prfile {
+    padding: 0;
+  }
+
+  /* end  */
+
+  /* for footer  */
+
+  footer .news-l {
+    display: flex;
+  }
+
+  footer .news-l .yello-color {
+    margin-left: 5px;
+  }
+
+  footer .footer-columns {
+    text-align: center;
+  }
+
+  .copyrights {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* end  */
+}
+
+@media (max-width: 475px) {
+  /* for nav  */
+
+  nav img {
+    width: 100px;
+  }
+
+  nav .respons {
+    height: 25px !important ;
+  }
+
+  /* end  */
+
+  /* feature section  */
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #feature p {
+    font-size: 15px;
+  }
+  /* end  */
+
+  /* course section  */
+
+  #feature .feature-card {
+    margin-top: 30px;
+  }
+
+  #courses .course-details {
+    margin-top: 30px;
+  }
+  /* end  */
+
+  /* for expert section  */
+
+  #expert-prfile {
+    margin-top: 30px;
+  }
+
+  #expert-prfile .expert-profile {
+    margin-bottom: 50px;
+  }
+
+  /* end */
+
+  /* for footer  */
+
+  .footer-columns {
+    padding: 20px 0;
+  }
+
+  /* end  */
+
+  /* for copyrigyht  */
+
+  .copyrights {
+    font-size: 13px;
+    padding: 5px 0;
+  }
+
+  .copyrights .social-handle i {
+    padding: 4px;
+  }
+
+  /* end  */
+}

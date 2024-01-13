@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* some Global Tags */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757373;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* end  */
+
+/* index start  */
+
+/* Navigation section start */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 1vw 8vw;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+nav img {
+  width: 150px;
+  cursor: pointer;
+}
+
+nav .navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav .navigation {
+  display: flex;
+}
+
+#responsive-menu {
+  width: 20px;
+  height: 30px;
+  display: none;
+}
+
+#close-menu {
+  display: none;
+}
+
+nav .navigation ul li {
+  list-style-type: none;
+  margin-left: 33px;
+}
+
+nav .navigation ul li a {
+  color: rgb(21, 21, 100);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+  color: #ffcb3a;
+}
+
+/* end  */
+
+/* hero section start  */
+
+#hero {
+  background-image: linear-gradient(rgba(10, 5, 54, 0.3), rgba(5, 4, 47, 0.7)),
+    url("images/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+#hero h2 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 50%;
+}
+
+#hero p {
+  width: 50%;
+  line-height: 25px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+#hero a {
+  font-size: 0.9rem;
+  padding: 12px 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#hero .button {
+  margin-top: 30px;
+}
+
+#hero .button .blue-btn {
+  color: #fff;
+  background-color: rgb(21, 21, 100);
+  transition: 0.3s ease;
+}
+
+#hero .button .blue-btn:hover {
+  color: rgb(21, 21, 100);
+  background-color: #fff;
+}
+
+#hero .button .yellow-btn {
+  color: #fff;
+  background-color: #ffcb3a;
+  transition: 0.3s ease;
+}
+
+#hero .button .yellow-btn:hover {
+  color: rgb(21, 21, 100);
+  background-color: #ddd9d9;
+}
+
+/* end  */
+
+/* features section start*/
+
+#feature {
+  text-align: center;
+  padding: 5vw 8vw 0 8vw;
+}
+
+#feature .feature-box-1 {
+  text-align: start;
+  background-color: #eeeef3;
+  padding: 25px;
+}
+
+#feature .feature-box-1 i {
+  color: rgb(44, 44, 80);
+  font-size: 2.3rem;
+}
+
+#feature .feature-box-1 h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(46, 46, 60);
+  padding: 13px 0 7px 0;
+}
+
+#feature .feature-box-1 p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(46, 46, 60);
+}
+
+#feature .feature-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin-top: 50px;
+  grid-gap: 1rem;
+}
+
+/* endd  */
+
+/* course section start*/
+
+#courses {
+  padding: 8vw 8vw 8vw 8vw;
+  text-align: center;
+}
+
+#courses .course {
+  height: 100%;
+  text-align: start;
+  background-color: #eeeef3;
+  position: relative;
+}
+
+#courses .course-details .cost {
+  background-color: rgb(75, 75, 135);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+#courses .course img {
+  height: 60%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#courses .course-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin-top: 50px;
+  grid-gap: 1rem;
+}
+
+#courses .course-details .details {
+  padding: 15px 15px 0 15px;
+}
+
+#courses .course-details .details i {
+  font-size: 0.9rem;
+  color: #ffcb3b;
+}
+
+/* end  */
+
+/* registration section start*/
+
+#registration {
+  background-image: linear-gradient(
+      rgba(99, 112, 168, 0.5),
+      rgba(82, 92, 235, 0.5)
+    ),
+    url(images/signup.jpg);
+  padding: 6vw 8vw 6vw 8vw;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#registration .time-remind {
+  color: #fff;
+}
+
+#registration .time-remind h1 {
+  color: #fff;
+}
+
+#registration .time-remind .time {
+  display: flex;
+  margin-top: 40px;
+}
+
+#registration .time-remind .time .date {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(3px);
+  text-align: center;
+  padding: 13px 33px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 8px 32px 0 rgba(3, 39, 135, 0.38);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 5px 10px 5px;
+}
+
+#registration .form {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(3, 39, 135, 0.38);
+}
+
+#registration .form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 1px solid rgb(85, 40, 245);
+  outline: none;
+}
+
+#registration .form input::placeholder {
+  color: #443e3e;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#registration .form a.yellow-btn {
+  font-size: 0.9rem;
+  padding: 12px 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ffcb3a;
+  transition: 0.3s ease;
+}
+
+#registration .form a.yellow-btn:hover {
+  color: rgb(21, 21, 100);
+  background-color: #ddd9d9;
+}
+
+#registration .form .button {
+  margin-top: 20px;
+}
+
+/* end  */
+
+/* profile section start*/
+
+#expert-prfile {
+  text-align: center;
+  padding: 8vw 8vw 8vw 8vw;
+}
+
+#expert-prfile .expert-profile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  margin-top: 50px;
+  grid-gap: 1rem;
+  padding: 0 50px;
+}
+
+#expert-prfile .expert-profile .proflies {
+  background-color: #f5f5f5;
+  padding: 30px 10px;
+}
+
+.proflies .social-handle {
+  margin-top: 10px;
+}
+
+.proflies .social-handle i {
+  cursor: pointer;
+  padding: 10px 12px;
+  border: 1px solid rgb(20, 20, 104);
+  transition: 0.4s;
+}
+
+.proflies .social-handle i:hover {
+  background-color: rgb(21, 21, 104);
+  color: #fff;
+}
+
+/* end  */
+
+/* footer section start*/
+
+footer {
+  background-color: #0f192d;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 7vw;
+}
+
+footer h3 {
+  color: rgb(240, 240, 250);
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+footer li {
+  color: #7b838a;
+  padding: 6px 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+footer li:hover {
+  color: rgb(240, 240, 250);
+}
+
+footer p {
+  color: #7b838a;
+}
+
+footer .news-l {
+  margin-top: 22px;
+}
+
+footer input {
+  width: 240px;
+  background-color: #35506c;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px 8px;
+}
+
+footer .news-l .yello-color {
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  background-color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+footer .news-l a.yello-color {
+  color: #fff;
+  background-color: #ffcb3a;
+  transition: 0.4s ease;
+}
+
+footer .news-l a.yello-color:hover {
+  color: rgb(21, 21, 100);
+  background-color: #fff;
+}
+
+/* end  */
+
+/* copyrght section start  */
+
+.copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0.5vw 8vw;
+  background-color: black;
+  color: #fff;
+}
+
+.copyrights .social-handle i {
+  cursor: pointer;
+  color: #2c2c2c;
+  background-color: #eae6e6;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.copyrights .social-handle i:hover {
+  color: #2c2c2c;
+  background-color: #ffcb3a;
+}
+
+/* end  */
+
+/* About section start*/
+
+/* Blog section start*/
+
+/* Course_inner section start*/
+
+/* contact section start*/
