@@ -236,3 +236,147 @@
 
   /* end  */
 }
+
+@media (max-width: 280px) {
+  /* for nav bar  */
+  nav {
+    width: 280px;
+  }
+
+  nav {
+    padding: 10px 20px;
+  }
+
+  nav .navigation ul li {
+    padding: 8px 0 10px 30px;
+  }
+
+  nav .navigation ul li a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  nav .navigation ul {
+    right: -290px;
+  }
+
+  /* end  */
+
+  /* for hero  */
+
+  #hero .button {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  #hero h2 {
+    font-size: 2rem;
+    padding: 20px 0;
+  }
+
+  /* end  */
+
+  /* for coursae  */
+
+  #courses .course img {
+    height: 50%;
+    width: 100%;
+  }
+
+  #courses .course-details .cost {
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    line-height: 50px;
+    font-size: 12px;
+  }
+
+  #courses .course {
+    max-width: 280px;
+  }
+
+  #feature .feature-box-1 {
+    max-width: 256px;
+  }
+
+  #courses .course {
+    max-width: 256px;
+  }
+  #courses .course-details .details h6 {
+    font-size: 1rem;
+  }
+
+  #courses .course-details .details span {
+    font-size: 0.7rem;
+  }
+
+  /* end  */
+
+  /* expert  */
+
+  #expert-prfile .expert-profile .proflies {
+    width: 256px;
+    padding: 0;
+  }
+
+  #expert-prfile .expert-profile {
+    padding: 0 10px;
+  }
+
+  #expert-prfile .expert-profile img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .proflies .social-handle {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+
+  .proflies .social-handle i {
+    padding: 5px 6px;
+  }
+  #courses {
+    padding-left: 13px;
+  }
+
+  /* registration  */
+
+  #registration .form {
+    padding: 20px;
+  }
+
+  #registration .form input {
+    padding: 10px 5px;
+  }
+
+  #registration .form a.yellow-btn {
+    font-size: 0.8rem;
+    padding: 10px 25px;
+  }
+
+  /* end  */
+
+  /* for footer  */
+
+  footer {
+    width: 100%;
+  }
+
+  footer .news-l {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .news-l a.yello-color {
+    width: 150px;
+  }
+
+  .copyrights {
+    width: 100%;
+  }
+}
