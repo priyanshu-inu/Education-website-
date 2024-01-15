@@ -580,6 +580,10 @@
   #courses-inner .view .course-heading {
     justify-content: space-around;
   }
+
+  #courses-inner .enroll {
+    width: 100%;
+  }
 }
 
 /* end. */
