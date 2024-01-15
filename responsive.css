@@ -1,5 +1,9 @@
 /* responsive section start*/
 
+/* for index page  */
+
+/* start  */
+
 @media (max-width: 769px) {
   /* for nav bar start */
 
@@ -380,3 +384,196 @@
     width: 100%;
   }
 }
+
+/* end  */
+
+/* responsive for about us page  */
+
+/* about us page  */
+
+/* start  */
+
+@media (max-width: 769px) {
+  /* for feature section   */
+  #about-contain {
+    padding: 4vw 4vw 2vw 4vw;
+  }
+
+  #about-contain .about-images {
+    padding-right: 40px;
+  }
+
+  #trust .trust-images img {
+    width: 60px;
+  }
+
+  /* end  */
+}
+
+@media (max-width: 475px) {
+  /* for feature section  */
+
+  #about-contain {
+    flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+
+  #about-contain .about-images {
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  #about-contain .about-texts {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  /* end  */
+
+  /* trust section start  */
+
+  #trust .trust-images {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #trust .trust-images img {
+    width: 60px;
+    margin: 10px 15px;
+  }
+
+  /* end  */
+}
+
+/* end  */
+
+/* responsive for blog page  */
+
+/* blog page  */
+
+/* start  */
+
+@media (max-width: 769px) {
+  /* for blogs  */
+
+  #blog-section {
+    padding: 8vw 4vw;
+  }
+
+  /* end  */
+}
+
+@media (max-width: 475px) {
+  /* for blog  */
+
+  #blog-section {
+    flex-direction: column;
+  }
+
+  #blog-section .blogs {
+    width: 100%;
+  }
+
+  #blog-section .categories {
+    width: 100%;
+  }
+
+  /* end  */
+}
+
+/* end  */
+
+/* responsive for blog poat page  */
+
+/* blog post  */
+
+/* start  */
+
+@media (max-width: 769px) {
+  /* for posts  */
+
+  #blog-section .blog-post img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  #blog-section .blog-post {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* end  */
+}
+
+@media (max-width: 475px) {
+  /* for posts  */
+
+  #blog-section .blog-post {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  /* end  */
+}
+
+/* end  */
+
+/* responsives for course pages */
+
+/* responsive for php page  */
+
+/* php course  */
+
+/* start  */
+
+@media (max-width: 769px) {
+  #courses-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+    justify-content: center;
+  }
+
+  #courses-inner .view .course-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #courses-inner .enroll {
+    margin-top: 25px;
+  }
+
+  #courses-inner .view {
+    width: 100%;
+  }
+  #courses-inner .view .course-heading .course-name {
+    width: 50%;
+  }
+
+  #courses-inner .view .course-heading .course-name h2 {
+    font-size: 22px;
+  }
+
+  #courses-inner .view .course-heading span {
+    font-size: 20px;
+
+    border-radius: 6px;
+  }
+
+  #courses-inner .enroll {
+    width: 100%;
+  }
+}
+
+@media (max-width: 912px) {
+  #courses-inner .enroll {
+    margin-left: 18px;
+  }
+}
+
+/* end. */

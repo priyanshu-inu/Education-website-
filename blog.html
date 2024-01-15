@@ -1,38 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education website</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2 etc Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
 
-        <link rel="stylesheet" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <body>
+    <!-- Navigation bar start -->
 
-    </head>
+    <nav>
+      <img src="images/logo.svg" alt="main logo" />
+      <div class="navigation">
+        <ul>
+          <i id="close-menu" class="fa-solid fa-xmark"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button style="border: none; background: none">
+          <img
+            style="height: 35px; width: 35px"
+            id="responsive-menu"
+            src="./images/responsive-menu.png"
+            alt="menu-button"
+            class="respons"
+          />
+        </button>
+      </div>
+    </nav>
 
-    <body>
+    <!-- end  -->
 
-        <!-- Navigation -->
+    <!-- hero section start  -->
 
-        <!-- hero -->
+    <section id="about-hero">
+      <h2>Blog</h2>
+    </section>
 
-        <!-- blog container -->
+    <!-- end  -->
 
-        <!-- footer -->
+    <!-- blog section start-->
 
-        <script>
+    <section id="blog-section">
+      <div class="blogs">
+        <div class="posts">
+          <img src="./images/blog img1.png" alt="blog images" />
+          <h3>Learn Web Development In The Easiest Way</h3>
+          <p>
+            Join us on a journey where innovation meets functionality, and where
+            your web presence becomes a testament to the excellence that
+            SpecBits brings to every project. Let's build the future of the web
+            together.
+          </p>
+          <a href="post.html">Read More</a>
+        </div>
 
-            // Navaigation Bar
+        <div class="posts">
+          <img src="./images/blog img2.jpg" alt="blog images" />
+          <h3>Fron-end Development In The Easiest Way</h3>
+          <p>
+            Join us on a journey where innovation meets functionality, and where
+            your web presence becomes a testament to the excellence that
+            SpecBits brings to every project. Let's build the future of the web
+            together.
+          </p>
+          <a href="post.html">Read More</a>
+        </div>
 
-        </script>
+        <div class="posts">
+          <img src="./images/blog img3.jpg" alt="blog images" />
+          <h3>Learn App Development In a Way</h3>
+          <p>
+            Join us on a journey where innovation meets functionality, and where
+            your web presence becomes a testament to the excellence that
+            SpecBits brings to every project. Let's build the future of the web
+            together.
+          </p>
+          <a href="post.html">Read More</a>
+        </div>
 
+        <div class="posts">
+          <img src="./images/blog img4.jpg" alt="blog images" />
+          <h3>Learn PHP + Laravel In Easiest Way</h3>
+          <p>
+            Join us on a journey where innovation meets functionality, and where
+            your web presence becomes a testament to the excellence that
+            SpecBits brings to every project. Let's build the future of the web
+            together.
+          </p>
+          <a href="post.html">Read More</a>
+        </div>
+      </div>
+      <div class="categories">
+        <h2>Categories</h2>
+        <hr />
+        <a href="#">Web Development</a>
+        <hr />
+        <a href="#">Python Programmimg</a>
+        <hr />
+        <a href="#">App Development</a>
+        <hr />
+        <a href="#">PHP + Laravel</a>
+        <hr />
+        <a href="#">Web Designing</a>
+        <hr />
+        <a href="#">Front-end Development</a>
+        <hr />
+        <a href="#">Digital Marketing</a>
+        <hr />
+      </div>
+    </section>
 
-    </body>
+    <!-- end  -->
 
+    <!-- Footer section start-->
+
+    <footer>
+      <div class="footer-columns">
+        <h3>Top Peoducts</h3>
+        <li>Power Tool</li>
+        <li>Managed Website</li>
+        <li>Marketing Support</li>
+        <li>Create Website</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Features</h3>
+        <li>Power API</li>
+        <li>Manage Business</li>
+        <li>Marketing</li>
+        <li>Learning</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Links</h3>
+        <li>Jobs Offer</li>
+        <li>Services</li>
+        <li>Relations</li>
+        <li>Updates</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Resources</h3>
+        <li>Recorded Sesions</li>
+        <li>Guides</li>
+        <li>Quick Actions</li>
+        <li>With Expert</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Newsletter</h3>
+        <p>You can trust with us, We only provide quality</p>
+        <div class="news-l">
+          <input type="text" placeholder="Your Email Adress" />
+          <a class="yello-color" href="#">SUBSCRIBE</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end  -->
+
+    <!-- copyrght section start  -->
+
+    <div class="copyrights">
+      <p>Copyright &copy; 2023. All right reserved by PriyanshuKarki</p>
+      <div class="social-handle">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+
+    <!-- end  -->
+
+    <script src="script.js"></script>
+  </body>
 </html>
