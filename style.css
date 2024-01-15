@@ -70,12 +70,6 @@ nav .navigation {
   display: flex;
 }
 
-#responsive-menu {
-  width: 20px;
-  height: 30px;
-  display: none;
-}
-
 #close-menu {
   display: none;
 }
@@ -91,6 +85,10 @@ nav .navigation ul li a {
   font-weight: 500;
   text-decoration: none;
   transition: 0.3s ease;
+}
+
+nav .navigation ul li a.active {
+  color: #ffcb3a;
 }
 
 nav .navigation ul li a:hover {
@@ -480,7 +478,33 @@ footer .news-l a.yello-color:hover {
 
 /* end  */
 
-/* About section start*/
+/* About page start*/
+
+/* start  */
+
+/* hero section start  */
+
+#about-hero {
+  background-image: linear-gradient(rgba(10, 5, 54, 0.3), rgba(5, 4, 47, 0.7)),
+    url("images/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 40px;
+  /* color: #fff; */
+}
+
+#about-hero h2 {
+  color: #fff;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
 
 /* Blog section start*/
 

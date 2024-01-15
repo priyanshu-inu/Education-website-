@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education Wesite</title>
+    <title>Education website</title>
 
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -21,18 +23,159 @@
   </head>
 
   <body>
-    <!-- Navigation -->
+    <!-- Navigation bar start -->
 
-    <!-- hero -->
+    <nav>
+      <img src="images/logo.svg" alt="main logo" />
+      <div class="navigation">
+        <ul>
+          <i id="close-menu" class="fa-solid fa-xmark"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About Us</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button style="border: none; background: none">
+          <img
+            style="height: 35px; width: 35px"
+            id="responsive-menu"
+            src="./images/responsive-menu.png"
+            alt="menu-button"
+            class="respons"
+          />
+        </button>
+      </div>
+    </nav>
 
-    <!-- features -->
+    <!-- end  -->
 
-    <!-- trusted by -->
+    <!-- hero section start  -->
 
-    <!-- footer -->
+    <section id="about-hero">
+      <h2>About Specbits</h2>
+    </section>
 
-    <script>
-      // Navaigation Bar
-    </script>
+    <section id="about-contain">
+      <div class="about-images">
+        <img src="./images/about-images.png" alt="images-about" />
+      </div>
+      <div class="about-texts">
+        <h2>
+          Welcome to Specbits, Enhance your skills with the best Online and
+          Offline Courses
+        </h2>
+        <p>
+          As a dedicated education-based company, we are committed to fostering
+          a learning environment that is engaging, practical.
+        </p>
+        <div class="about-fees"></div>
+      </div>
+    </section>
+
+    <!-- end  -->
+
+    <!-- features section start-->
+
+    <section id="feature">
+      <h1>Awesome Features</h1>
+      <p>Replenish man have thing gsthering yielding shall you</p>
+      <div class="feature-card">
+        <div class="feature-box-1">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Scholarship Facility</h3>
+
+          <p>One marke creepeth man bearing theria won't great heaven</p>
+        </div>
+        <div class="feature-box-1">
+          <i class="fa-solid fa-file-circle-plus"></i>
+          <h3>Online Courses</h3>
+
+          <p>One marke creepeth man bearing theria won't great heaven</p>
+        </div>
+        <div class="feature-box-1">
+          <i class="fa-solid fa-award"></i>
+          <h3>Global Certification</h3>
+
+          <p>One marke creepeth man bearing theria won't great heaven</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- end  -->
+
+    <!-- Courses section start -->
+
+    <!-- end  -->
+
+    <!-- Registration section start -->
+
+    <!-- end  -->
+
+    <!-- Profiles section start-->
+
+    <!-- end   -->
+
+    <!-- Footer section start-->
+
+    <footer>
+      <div class="footer-columns">
+        <h3>Top Peoducts</h3>
+        <li>Power Tool</li>
+        <li>Managed Website</li>
+        <li>Marketing Support</li>
+        <li>Create Website</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Features</h3>
+        <li>Power API</li>
+        <li>Manage Business</li>
+        <li>Marketing</li>
+        <li>Learning</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Links</h3>
+        <li>Jobs Offer</li>
+        <li>Services</li>
+        <li>Relations</li>
+        <li>Updates</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Resources</h3>
+        <li>Recorded Sesions</li>
+        <li>Guides</li>
+        <li>Quick Actions</li>
+        <li>With Expert</li>
+      </div>
+
+      <div class="footer-columns">
+        <h3>Newsletter</h3>
+        <p>You can trust with us, We only provide quality</p>
+        <div class="news-l">
+          <input type="text" placeholder="Your Email Adress" />
+          <a class="yello-color" href="#">SUBSCRIBE</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end  -->
+
+    <!-- copyrght section start  -->
+
+    <div class="copyrights">
+      <p>Copyright &copy; 2023. All right reserved by PriyanshuKarki</p>
+      <div class="social-handle">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+
+    <!-- end  -->
+
+    <script src="script.js"></script>
   </body>
 </html>
