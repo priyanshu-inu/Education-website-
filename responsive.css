@@ -576,4 +576,10 @@
   }
 }
 
+@media (max-width: 475px) {
+  #courses-inner .view .course-heading {
+    justify-content: space-around;
+  }
+}
+
 /* end. */
