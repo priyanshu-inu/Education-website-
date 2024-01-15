@@ -584,6 +584,10 @@
   #courses-inner .enroll {
     width: 100%;
   }
+
+  #courses-inner .enroll {
+    margin-left: 0;
+  }
 }
 
 /* end. */
