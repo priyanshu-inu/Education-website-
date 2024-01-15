@@ -522,6 +522,52 @@
 
 /* end  */
 
+/* responsives for contact pages */
+
+/* responsive for contact page  */
+
+/* contact page  */
+
+/* start  */
+
+@media (max-width: 769px) {
+  #contact {
+    padding: 8vw 4vw;
+  }
+
+  #contact .get {
+    width: 250px;
+  }
+}
+
+@media (max-width: 475px) {
+  #contact {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #contact .get {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact .form {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  #contact .form .form-rows {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #contact .form .form-rows input {
+    width: 100%;
+  }
+}
+
+/* end  */
+
 /* responsives for course pages */
 
 /* responsive for php page  */
