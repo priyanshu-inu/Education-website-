@@ -614,6 +614,25 @@
   #courses-inner .enroll {
     width: 100%;
   }
+
+  .copyrights {
+    padding: 10px 0;
+    font-size: 12.5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyrights p {
+    font-size: 12.5px;
+  }
+
+  .copyrights span {
+    font-size: 12.5px;
+  }
+
+  .copyrights .social-handle {
+    display: none;
+  }
 }
 
 @media (max-width: 912px) {
